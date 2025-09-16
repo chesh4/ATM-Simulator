@@ -1,0 +1,28 @@
+# Java build outputs
+/out/
+/bin/
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE/editor
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and generated runtime files
+*.log
+
+# Project-specific
+# Persisted transactions are generated; keep accounts.csv tracked
+/data/transactions.csv
+
